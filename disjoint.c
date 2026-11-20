@@ -24,7 +24,7 @@ int rootX=Find(x);
 int rootY=Find(y);
 if (rootX==rootY)
 {
-printf("both elements belonmgs tob the same set.\n");
+printf("both elements belonmgs to the same set.\n");
 return;
 }
 if (rank[rootX]<rank[rootY])
